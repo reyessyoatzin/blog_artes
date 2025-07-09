@@ -4,6 +4,6 @@
         <h5 class="card-title">{{  }}</h5>
         <p class="card-text">{{ }}</p>
       </div>
-      <router-link :to="`/libro/`" class="btn btn-primary mt-3">Ver más</router-link>
+      <router-link :to="`/libro/`" class="btn btn-outline-danger">Ver más</router-link>
     </div>
   </template>
