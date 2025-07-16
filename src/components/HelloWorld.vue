@@ -1,46 +1,123 @@
 <template>
-  <div>
-    <div class="card-body d-flex flex-column justify-content-between flex-grow-1">
-      <img src="https://i.etsystatic.com/36969499/r/il/0e9c00/4174046284/il_1140xN.4174046284_7pv6.jpg" height="25%" width="100%" />
-      <router-link :to="`/libro/`" class="btn btn-primary mt-3">Ver más</router-link>
-    </div>
+    <br>
+    <br>
+    <br>
+   <center>
+   <h2 class="animate__animated animate__fadeInDown">
+    ¡BIENVENIDOS A MI BLOG DE ARTESANIAS!
+   </h2>
+   </center>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-cards">
-          <div class="section-card">
-          <img src="https://tienda.hechoenveracruz.gob.mx/wp-content/uploads/2023/01/bolsita-mediana.jpg" alt="Imagen tarjeta 1" />  
-            <span>1</span>
-            <h2>Tarjeta 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#">Saber más</a>
-          </div>
-          <div class="section-card">
-             <img src="https://www.amigosmap.org.mx/wp-content/uploads/2022/03/DURANGO5.jpg" alt="Imagen tarjeta 1" />
-            <span>2</span>
-            <h2>Tarjeta 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#">Saber más</a>
-          </div>
-          <div class="section-card">
-             <img src="https://www.artesanum.com/content/upi/6/26036/4/252ed88bb6dbc4ae.jpg" alt="Imagen tarjeta 1" /> 
-            <span>3</span>
-            <h2>Tarjeta 3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#">Saber más</a>
-          </div>
-           <div class="section-card">
-             <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t1.6435-9/74667381_2668538786538076_2000505378890055680_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ePEUmbYoKBkQ7kNvwGXZtPh&_nc_oc=AdkMN0KYVr98SNPPy5ebw02HXuqNVzMsQQ5WGatZtyzsRlVDrv5tehSDumKf7uZTu9A&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=_Z3RO7x8W3Opzcajv0QTzg&oh=00_AfQTeaObuYRxTiIhSrTrI9X30X0dETu9EveCzHTczijMNg&oe=68961023" alt="Imagen tarjeta 1" /> 
-            <span>4</span>
-            <h2>Tarjeta 4</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#">Saber más</a>
-          </div>
-        </div>
+   <br>
+   <!-- Contenedor centrado y con tamaño personalizado -->
+   <div style="max-width: 800px; margin: 0 auto;">
+   <!-- Carrusel -->
+   <div id="carouselExampleFade" class="carousel slide carousel-fade"  data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.etsystatic.com/36969499/r/il/0e9c00/4174046284/il_1140xN.4174046284_7pv6.jpg" class="d-block w-100" alt="Imagen 1">
       </div>
-    </section>
+      <div class="carousel-item">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.CDNslIogo0j3JAzrZV6UpwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="d-block w-100" alt="Imagen 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.pinimg.com/originals/1a/8b/6b/1a8b6bf10d3e5081d1ab635f2e337405.jpg" class="d-block w-100" alt="Imagen 3">
+      </div>
+       <div class="carousel-item">
+        <img src="https://www.lessonface.com/sites/default/files/styles/premium_product/public/product-images/img-20240125-164936957-hdr1.jpg" class="d-block w-100" alt="Imagen 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
   </div>
-</template>
+  </div>
+
+
+   <div class="section-cards">
+  <div class="section-card">
+    <img src="https://tienda.hechoenveracruz.gob.mx/wp-content/uploads/2023/01/bolsita-mediana.jpg" alt="Imagen tarjeta 1" />  
+    <span>1</span>
+    <h2>MORRAL</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <router-link :to="'/detalle/1'" class="btn btn-primary mt-2">
+      Saber más
+    </router-link>
+  </div>
+
+  <div class="section-card">
+    <img src="https://www.amigosmap.org.mx/wp-content/uploads/2022/03/DURANGO5.jpg" alt="Imagen tarjeta 2" />
+    <span>2</span>
+    <h2>Sombrero de soyate</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <router-link :to="'/detalle/2'" class="btn btn-primary mt-2">
+      Saber más
+    </router-link>
+  </div>
+
+  <div class="section-card">
+    <img src="https://www.artesanum.com/content/upi/6/26036/4/252ed88bb6dbc4ae.jpg" alt="Imagen tarjeta 3" /> 
+    <span>3</span>
+    <h2>Pulsera de chaquira</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <router-link :to="'/detalle/3'" class="btn btn-primary mt-2">
+      Saber más
+    </router-link>
+  </div>
+
+  <div class="section-card">
+    <img src="https://tecolotito.elsiglodedurango.com.mx/i/2021/03/961533.jpeg" alt="Imagen tarjeta 4" /> 
+    <span>4</span>
+    <h2>Traje típico de mujer</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <router-link :to="'/detalle/4'" class="btn btn-primary mt-2">
+      Saber más
+    </router-link>
+  </div>
+  <div class="section-card">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_724820-MLM45677710588_042021-F.jpg" alt="Imagen tarjeta 1" />  
+    <span>5</span>
+    <h2>Servilleta</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <router-link :to="'/detalle/5'" class="btn btn-primary mt-2">
+      Saber más
+    </router-link>
+  </div>
+  <div class="section-card">
+    <img src="https://http2.mlstatic.com/jogo-cesto-palha-de-milho-c3-cestos-artesanal-D_NQ_NP_613602-MLB25573561324_052017-O.jpg" alt="Imagen tarjeta 1" />  
+    <span>6</span>
+    <h2>Canasta de soyate</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <router-link :to="'/detalle/6'" class="btn btn-primary mt-2">
+      Saber más
+    </router-link>
+  </div>
+  <div class="section-card">
+    <img src="https://i.etsystatic.com/15493948/r/il/325b67/2192705390/il_1588xN.2192705390_5caf.jpg" alt="Imagen tarjeta 1" />  
+    <span>7</span>
+    <h2>Collar de chaquira</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <router-link :to="'/detalle/7'" class="btn btn-primary mt-2">
+      Saber más
+    </router-link>
+  </div>
+  <div class="section-card">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.zzjEU77kTOGOUWh9T_MLzAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen tarjeta 1" />  
+    <span>1</span>
+    <h2>pulcera de chaquira</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <router-link :to="'/detalle/8'" class="btn btn-primary mt-2">
+      Saber más
+    </router-link>
+  </div>
+
+ </div>
+ </template>
 
 
 <script>
@@ -54,6 +131,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  height: 500px;
+}
 * {
 margin: 0;
 padding: 0;
@@ -120,7 +208,7 @@ background-color: #ff4486;
 }
 .section-cards {
   display: flex;
-  gap: 20px;
+  gap: 100px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -139,6 +227,15 @@ background-color: #ff4486;
   height: auto;
   border-radius: 6px;
   margin-bottom: 12px;
+}
+.custom-carousel {
+  height: 180px;
+}
+
+@media (min-width: 768px) {
+  .custom-carousel {
+    height: 250px;
+  }
 }
 
 </style>
