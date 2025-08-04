@@ -16,9 +16,6 @@
     <router-link class="nav-link" to="/quienesomos">Quiénes Somos</router-link>
   </li>
   <li class="nav-item">
-    <router-link class="nav-link" to="/categorias">Categorías</router-link>
-  </li>
-  <li class="nav-item">
     <router-link class="nav-link" to="/contacto">Contacto</router-link>
   </li>
 </ul>

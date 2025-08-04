@@ -20,7 +20,7 @@
         <textarea id="mensaje" v-model="mensaje" class="form-control" rows="4" required></textarea>
       </div>
 
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button type="submit" class="btn-back">Enviar</button>
     </form>
 
     <div v-if="mensajeEnviado" class="alert alert-success mt-3" role="alert">
@@ -62,6 +62,15 @@ export default {
 </script>
 
 <style scoped>
+.btn-back {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #d1086d;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
 .container {
   max-width: 600px;
 }

@@ -59,26 +59,26 @@ export default {
         name: 'servilleta',
         price: 180,
         image: 'https://http2.mlstatic.com/D_NQ_NP_724820-MLM45677710588_042021-F.jpg',
-        description: 'Sombrero hecho con fibra natural de soyate, ideal para el sol.'
+        description: 'servilletas decorados con diferentes estilos y colores de estambres.'
       },
       {
         id: '6',
         name: 'canasta de soyate',
-        price: 180,
+        price: 90,
         image: 'https://http2.mlstatic.com/jogo-cesto-palha-de-milho-c3-cestos-artesanal-D_NQ_NP_613602-MLB25573561324_052017-O.jpg',
         description: 'Sombrero hecho con fibra natural de soyate, ideal para el sol.'
       },
       {
         id: '7',
         name: 'collar de chaquira',
-        price: 180,
+        price: 550,
         image: 'https://i.etsystatic.com/15493948/r/il/325b67/2192705390/il_1588xN.2192705390_5caf.jpg',
-        description: 'Sombrero hecho con fibra natural de soyate, ideal para el sol.'
+        description: 'Collares de chaquiras en forma de flores y con diferentes colores.'
       },
       {
         id: '8',
         name: 'Aretes',
-        price: 180,
+        price: 150,
         image: 'https://i.etsystatic.com/15493948/r/il/325b67/2192705390/il_1588xN.2192705390_5caf.jpg',
         description: 'los aretes son parte de la vestimenta.'
       }

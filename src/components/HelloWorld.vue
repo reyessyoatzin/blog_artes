@@ -44,7 +44,7 @@
     <img src="https://tienda.hechoenveracruz.gob.mx/wp-content/uploads/2023/01/bolsita-mediana.jpg" alt="Imagen tarjeta 1" />  
     <span>1</span>
     <h2>MORRAL</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Este tipo de morral tiene varios usos ya sea para adornar con la vestimenta.</p>
     <router-link :to="'/detalle/1'" class="btn btn-primary mt-2">
       Saber más
     </router-link>
@@ -54,7 +54,7 @@
     <img src="https://www.amigosmap.org.mx/wp-content/uploads/2022/03/DURANGO5.jpg" alt="Imagen tarjeta 2" />
     <span>2</span>
     <h2>Sombrero de soyate</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Estos tipos de sombreros son parte de la vestimente del hombre.</p>
     <router-link :to="'/detalle/2'" class="btn btn-primary mt-2">
       Saber más
     </router-link>
@@ -64,7 +64,7 @@
     <img src="https://www.artesanum.com/content/upi/6/26036/4/252ed88bb6dbc4ae.jpg" alt="Imagen tarjeta 3" /> 
     <span>3</span>
     <h2>Pulsera de chaquira</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Estos tipos de pulceras son muy llamativos ya que esta hecho 100% de chaquira.</p>
     <router-link :to="'/detalle/3'" class="btn btn-primary mt-2">
       Saber más
     </router-link>
@@ -74,7 +74,7 @@
     <img src="https://tecolotito.elsiglodedurango.com.mx/i/2021/03/961533.jpeg" alt="Imagen tarjeta 4" /> 
     <span>4</span>
     <h2>Traje típico de mujer</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Este tipo de traje son las que usan las mujeres especificamente en el pueblo de Santiago teneraca.</p>
     <router-link :to="'/detalle/4'" class="btn btn-primary mt-2">
       Saber más
     </router-link>
@@ -83,7 +83,7 @@
     <img src="https://http2.mlstatic.com/D_NQ_NP_724820-MLM45677710588_042021-F.jpg" alt="Imagen tarjeta 1" />  
     <span>5</span>
     <h2>Servilleta</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>son muy bonitas ya que estan decorados con diferentes colores de estambres.</p>
     <router-link :to="'/detalle/5'" class="btn btn-primary mt-2">
       Saber más
     </router-link>
@@ -92,7 +92,7 @@
     <img src="https://http2.mlstatic.com/jogo-cesto-palha-de-milho-c3-cestos-artesanal-D_NQ_NP_613602-MLB25573561324_052017-O.jpg" alt="Imagen tarjeta 1" />  
     <span>6</span>
     <h2>Canasta de soyate</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>estan canastas se utilizan normalmente para guardar tortillas</p>
     <router-link :to="'/detalle/6'" class="btn btn-primary mt-2">
       Saber más
     </router-link>
@@ -101,16 +101,16 @@
     <img src="https://i.etsystatic.com/15493948/r/il/325b67/2192705390/il_1588xN.2192705390_5caf.jpg" alt="Imagen tarjeta 1" />  
     <span>7</span>
     <h2>Collar de chaquira</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>son muy bonitas esta elaborado 100% de chaquira.</p>
     <router-link :to="'/detalle/7'" class="btn btn-primary mt-2">
       Saber más
     </router-link>
   </div>
   <div class="section-card">
     <img src="https://tse3.mm.bing.net/th/id/OIP.zzjEU77kTOGOUWh9T_MLzAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen tarjeta 1" />  
-    <span>1</span>
+    <span>8</span>
     <h2>pulcera de chaquira</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>pulceras bonitas 100% de chaquira.</p>
     <router-link :to="'/detalle/8'" class="btn btn-primary mt-2">
       Saber más
     </router-link>
